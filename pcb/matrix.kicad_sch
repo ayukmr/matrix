@@ -2618,7 +2618,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP2112K-3.3"
+		(symbol "Regulator_Linear:XC6206PxxxMR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2626,7 +2626,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 5.715 0)
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XC6206PxxxMR"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2634,34 +2642,17 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AP2112K-3.3"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2670,7 +2661,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
+			(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2679,7 +2670,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23?5*"
+			(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2688,9 +2679,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP2112K-3.3_0_1"
+			(property "ki_fp_filters" "SOT?23?3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XC6206PxxxMR_0_1"
 				(rectangle
-					(start -5.08 4.445)
+					(start -5.08 1.905)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
@@ -2701,29 +2701,11 @@
 					)
 				)
 			)
-			(symbol "AP2112K-3.3_1_1"
+			(symbol "XC6206PxxxMR_1_1"
 				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2748,26 +2730,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2776,16 +2739,16 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "VOUT"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3384,6 +3347,12 @@
 		(uuid "786e8b35-c2fc-419c-ae28-45558525136f")
 	)
 	(junction
+		(at 93.98 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a057d00-977e-4388-bdbc-c866ff9b0eb0")
+	)
+	(junction
 		(at 227.33 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3480,12 +3449,6 @@
 		(uuid "a3cb1bf3-932a-4d32-af43-c18144f46a9f")
 	)
 	(junction
-		(at 93.98 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6feb425-461a-47b0-9980-056f56f17ffe")
-	)
-	(junction
 		(at 207.01 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3526,12 +3489,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbb74881-2f7a-4065-92cb-1858d875ab43")
-	)
-	(junction
-		(at 81.28 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcf2292d-5350-4b0e-bbca-24b94598b0fd")
 	)
 	(junction
 		(at 207.01 93.98)
@@ -4133,16 +4090,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 115.57) (xy 93.98 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a161bc7-e30d-4665-ae57-bff68a104a52")
-	)
-	(wire
-		(pts
 			(xy 199.39 100.33) (xy 198.12 100.33)
 		)
 		(stroke
@@ -4363,13 +4310,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 132.08) (xy 93.98 132.08)
+			(xy 93.98 113.03) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29113295-e5db-4d46-afc6-a2bd0301bb3a")
+		(uuid "29038d1b-8a30-4933-a817-93c75db716e1")
 	)
 	(wire
 		(pts
@@ -5140,6 +5087,16 @@
 			(type default)
 		)
 		(uuid "6154842d-66f8-4b2b-9c7d-e12c1d303e05")
+	)
+	(wire
+		(pts
+			(xy 93.98 132.08) (xy 102.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6196284a-89f1-4b3c-810c-9eaf567bd356")
 	)
 	(wire
 		(pts
@@ -6603,16 +6560,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 105.41) (xy 81.28 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d842249c-615f-4960-810f-7093eb215019")
-	)
-	(wire
-		(pts
 			(xy 233.68 116.84) (xy 234.95 116.84)
 		)
 		(stroke
@@ -6883,7 +6830,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 132.08) (xy 102.87 132.08)
+			(xy 85.09 132.08) (xy 93.98 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6893,7 +6840,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 107.95) (xy 81.28 121.92)
+			(xy 81.28 105.41) (xy 81.28 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6930,16 +6877,6 @@
 			(type default)
 		)
 		(uuid "ef0e2931-7db5-4c7a-bf9c-39403099cab9")
-	)
-	(wire
-		(pts
-			(xy 81.28 107.95) (xy 86.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1da175c-65f5-49b9-bda7-52df88c6b641")
 	)
 	(wire
 		(pts
@@ -7562,6 +7499,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:XC6206PxxxMR")
+		(at 93.98 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166043d4-b61f-4299-8c3a-ea9f2aa3a329")
+		(property "Reference" "U2"
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206PxxxMR"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 93.98 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a86b6322-c6e7-4abe-acc8-3d8b2043af62")
+		)
+		(pin "1"
+			(uuid "2ee57177-80bf-471a-8663-b5a522eedb85")
+		)
+		(pin "2"
+			(uuid "2a474cff-0880-4d5d-8760-cd107f86878c")
+		)
+		(instances
+			(project ""
+				(path "/dedde073-c051-4814-9913-31ee2067ce3b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 102.87 114.3 0)
 		(unit 1)
@@ -8144,83 +8153,6 @@
 			(project "simple"
 				(path "/dedde073-c051-4814-9913-31ee2067ce3b"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 93.98 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e00e2a1-9602-4afa-ad54-f4de6c0fc1b5")
-		(property "Reference" "U2"
-			(at 93.98 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2112K-3.3"
-			(at 93.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 93.98 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
-			(at 93.98 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-			(at 93.98 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "dc28ddeb-d892-46ac-9c7f-7c2e466b6b90")
-		)
-		(pin "1"
-			(uuid "cf3b5f93-328d-43ad-80c1-29dd9b954dca")
-		)
-		(pin "4"
-			(uuid "d2325726-49bd-47af-9aa3-cd584aafab8f")
-		)
-		(pin "2"
-			(uuid "8053631e-ff6c-4166-89db-575378237b76")
-		)
-		(pin "5"
-			(uuid "17761ec8-0c9f-4276-8683-cd06a8b36446")
-		)
-		(instances
-			(project "simple"
-				(path "/dedde073-c051-4814-9913-31ee2067ce3b"
-					(reference "U2")
 					(unit 1)
 				)
 			)
