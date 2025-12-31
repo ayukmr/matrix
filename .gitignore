@@ -1,6 +1,8 @@
 .DS_Store
 
-/pcb/*.kicad_prl
 /pcb/*.lck
+/pcb/*.gbr
+/pcb/*.gbrjob
+/pcb/*.kicad_prl
 /pcb/*-backups
 /pcb/fp-info-cache
