@@ -1,16 +1,15 @@
-Reference,Qty,Value,DNP,Footprint,Datasheet,LCSC Part #,Link,Price
-"C1,C2",2,2.2 uF,,Capacitor_SMD:C_0603_1608Metric,~,C23630,https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630,0.0055
-C3,1,1 uF,,Capacitor_SMD:C_0603_1608Metric,~,C15849,https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849,0.0048
-C4,1,22 uF,,Capacitor_SMD:C_0603_1608Metric,~,C59461,https://jlcpcb.com/partdetail/60514-CL10A226MQ8NRNC/C59461,0.0083
-C5,1,0.1 uF,,Capacitor_SMD:C_0603_1608Metric,~,C14663,https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663,0.0024
-"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32",32,LED_Small,,LED_SMD:LED_0603_1608Metric,~,C2286,https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286,0.0058
-J1,1,Conn_01x02,,Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical,~,C160352,https://jlcpcb.com/partdetail/JST-B2B_PH_SM4_TB_LF_SN/C160352,0.394
-J2,1,USB_C_Receptacle_USB2.0_14P,,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,C165948,https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948,0.1731
-"R1,R2",2,5.1k,,Resistor_SMD:R_0603_1608Metric,~,C25905,https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905,0.0006
-"R3,R4",2,10k,,Resistor_SMD:R_0603_1608Metric,~,C25744,https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744,0.0006
-"R5,R6,R7,R8,R9,R10,R13,R14",8,470,,Resistor_SMD:R_0603_1608Metric,~,C25117,https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117,0.0006
-"R11,R12",2,22,,Resistor_SMD:R_0603_1608Metric,~,C25092,https://jlcpcb.com/partdetail/25835-0402WGF220JTCE/C25092,0.0006
-"SW1,SW2,SW3,SW4",4,SW_Push,,Button_Switch_SMD:SW_SPST_PTS810,~,,https://jlcpcb.com/partdetail/CK-PTS810SJS250SMTRLFS/C221897,0.4246
-"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10",10,TestPoint,Yes,TestPoint:TestPoint_Pad_D1.0mm,~,,,
-U1,1,ESP32-S3-MINI-1U,,RF_Module:ESP32-S2-MINI-1U,https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf,,https://jlcpcb.com/partdetail/3401551-ESP32_S3_MINI_1UN8/C2980299,4.5925
-U2,1,XC6206PxxxMR,,Package_TO_SOT_SMD:SOT-23-3,https://www.torexsemi.com/file/xc6206/XC6206.pdf,C5446,https://jlcpcb.com/partdetail/TorexSemicon-XC6206P332MRG/C5446,0.0905
+Reference,Qty,Value,Footprint,Datasheet,LCSC Part #,Link,Price
+"C1,C2",2,2.2 µF,Capacitor_SMD:C_0603_1608Metric,~,C23630,https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630,0.0055
+C3,1,1 µF,Capacitor_SMD:C_0603_1608Metric,~,C15849,https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849,0.0048
+C4,1,22 µF,Capacitor_SMD:C_0603_1608Metric,~,C59461,https://jlcpcb.com/partdetail/60514-CL10A226MQ8NRNC/C59461,0.0083
+C5,1,0.1 µF,Capacitor_SMD:C_0603_1608Metric,~,C14663,https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663,0.0024
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32",32,LED_Small,LED_SMD:LED_0603_1608Metric,~,C2286,https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286,0.0058
+J1,1,Conn_01x02,Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical,~,C160352,https://jlcpcb.com/partdetail/JST-B2B_PH_SM4_TB_LF_SN/C160352,0.394
+J2,1,USB_C_Receptacle_USB2.0_14P,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,C165948,https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948,0.1731
+"R1,R2",2,5.1k Ω,Resistor_SMD:R_0603_1608Metric,~,C25905,https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905,0.0006
+"R3,R4",2,10k Ω,Resistor_SMD:R_0603_1608Metric,~,C25744,https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744,0.0006
+"R5,R6,R7,R8,R9,R10,R13,R14",8,470 Ω,Resistor_SMD:R_0603_1608Metric,~,C25117,https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117,0.0006
+"R11,R12",2,22 Ω,Resistor_SMD:R_0603_1608Metric,~,C25092,https://jlcpcb.com/partdetail/25835-0402WGF220JTCE/C25092,0.0006
+"SW1,SW2,SW3",3,SW_Push,Button_Switch_SMD:SW_SPST_PTS810,~,C720477,https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477,0.0434
+U1,1,ESP32-C3-WROOM-02,RF_Module:ESP32-C3-WROOM-02,https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf,C2934560,https://jlcpcb.com/partdetail/3281215-ESP32_C3_WROOM_02N4/C2934560,3.0044
+U2,1,XC6206PxxxMR,Package_TO_SOT_SMD:SOT-23-3,https://www.torexsemi.com/file/xc6206/XC6206.pdf,C5446,https://jlcpcb.com/partdetail/TorexSemicon-XC6206P332MRG/C5446,0.0905
