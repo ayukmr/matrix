@@ -10,6 +10,6 @@ J2,1,USB_C_Receptacle_USB2.0_14P,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-
 "R3,R4",2,10k Ω,Resistor_SMD:R_0603_1608Metric,~,C25744,https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744,0.0006
 "R5,R6,R7,R8,R9,R10,R13,R14",8,470 Ω,Resistor_SMD:R_0603_1608Metric,~,C25117,https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117,0.0006
 "R11,R12",2,22 Ω,Resistor_SMD:R_0603_1608Metric,~,C25092,https://jlcpcb.com/partdetail/25835-0402WGF220JTCE/C25092,0.0006
-"SW1,SW2,SW3",3,SW_Push,Button_Switch_SMD:SW_SPST_PTS810,~,C720477,https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477,0.0434
-U1,1,ESP32-C3-WROOM-02,RF_Module:ESP32-C3-WROOM-02,https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf,C2934560,https://jlcpcb.com/partdetail/3281215-ESP32_C3_WROOM_02N4/C2934560,3.0044
+"SW1,SW2,SW3,SW4",4,SW_Push,Button_Switch_SMD:SW_SPST_PTS810,~,C720477,https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477,0.0434
+U1,1,ESP32-C6-MINI-1U,RF_Module:ESP32-C6-MINI-1U,https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf,C20627095,https://jlcpcb.com/partdetail/22039339-ESP32_C6_MINI_1UH4/C20627095,4.8423
 U2,1,XC6206PxxxMR,Package_TO_SOT_SMD:SOT-23-3,https://www.torexsemi.com/file/xc6206/XC6206.pdf,C5446,https://jlcpcb.com/partdetail/TorexSemicon-XC6206P332MRG/C5446,0.0905

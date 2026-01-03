@@ -1,7 +1,7 @@
 void setup() {
-  pinMode(4, OUTPUT);
-  pinMode(1, OUTPUT);
+  pinMode(20, OUTPUT);
+  pinMode(18, OUTPUT);
 
-  digitalWrite(4, LOW);
-  digitalWrite(1, HIGH);
+  digitalWrite(20, HIGH);
+  digitalWrite(18, LOW);
 }

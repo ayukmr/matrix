@@ -2,7 +2,7 @@
 #include <utility>
 #include <algorithm>
 
-std::array<int, 6> pins = {1, 3, 4, 5, 6, 7};
+std::array<int, 6> pins = {18, 19, 20, 21, 22, 23};
 
 std::array<std::array<std::pair<int, int>, 3>, 5> pairs = {{
     {{{2, 0}, {4, 2}, {5, 4}}},
