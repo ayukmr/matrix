@@ -2,7 +2,7 @@
 
 <img src="https://static.ayukmr.com/repos/matrix/3.png" height="400">
 
-Charlieplexed LED matrix controlled by an ESP32-C3-WROOM-02.
+Charlieplexed LED matrix controlled by an ESP32-C6-MINI-1U.
 
 This is intended to both be a standalone board (with two buttons as inputs) and a test of these specific components for use in more ambitious future projects.
 Additionally, charlieplexing was a new concept for me, which is why I wanted to first try it out in this format.
